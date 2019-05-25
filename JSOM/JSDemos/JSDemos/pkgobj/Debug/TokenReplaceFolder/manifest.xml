@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="71d572b6-ab14-4e85-a930-3e004f6a1570" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="JSDemos.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\JSDemos\ReadWebSiteProps.aspx" />
+  </TemplateFiles>
+</Solution>
