@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="aa0c6f00-e9af-4552-b74e-186bcea76e21" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="RibbonActions.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="RibbonActions_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

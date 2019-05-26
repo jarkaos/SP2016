@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="aa0c6f00-e9af-4552-b74e-186bcea76e21" solutionId="aa0c6f00-e9af-4552-b74e-186bcea76e21" resetWebServer="false" sharePointProductVersion="16.0" name="RibbonActions" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ea10955b-5ef1-4494-8f8f-51d820d05ffc" />
+  </features>
+</package>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="876c2bf1-be22-4317-9968-c55235a37a31" Scope="Web" Title="RibbonActions Feature1">
+  <ElementManifests>
+    <ElementManifest Location="RibbonActionModule\Elements.xml" />
+  </ElementManifests>
+</Feature>

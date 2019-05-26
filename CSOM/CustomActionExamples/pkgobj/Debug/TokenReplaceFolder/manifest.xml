@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="1f714bf7-3567-4423-b510-5fbee1bf0bec" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="CustomActionExamples.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="CustomActionExamples_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

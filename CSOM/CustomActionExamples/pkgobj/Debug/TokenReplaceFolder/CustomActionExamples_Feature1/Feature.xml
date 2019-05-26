@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="de239628-9291-4144-bc21-3fb796a13ce9" Scope="Site" Title="Custom Action Examples">
+  <ElementManifests>
+    <ElementManifest Location="CAModule\Elements.xml" />
+  </ElementManifests>
+</Feature>
