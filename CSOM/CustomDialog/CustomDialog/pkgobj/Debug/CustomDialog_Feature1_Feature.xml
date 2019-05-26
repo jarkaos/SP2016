@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="a595facb-a0d8-4420-b504-31b61970d093" Scope="Site" Title="CustomDialog Feature1">
+  <ElementManifests>
+    <ElementManifest Location="VWPTrainer\Elements.xml" />
+    <ElementFile Location="VWPTrainer\VWPTrainer.webpart" />
+  </ElementManifests>
+</Feature>

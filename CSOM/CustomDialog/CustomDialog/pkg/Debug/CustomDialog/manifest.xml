@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="5fa0745a-d780-49a4-83fc-50b86e51a349" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="CustomDialog.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="CustomDialog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cfb4790bf3674082" Namespace="CustomDialog.VWPTrainer" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="CustomDialog_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
