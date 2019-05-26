@@ -1,0 +1,166 @@
+﻿<Project ToolsVersion="16.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AC3B95EE-A481-4DBB-B212-09F590B1E584}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JavaScriptDemos</RootNamespace>
+    <AssemblyName>JavaScriptDemos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GetTrainersList\GetTrainersList.cs" />
+    <Compile Include="Layouts\JavaScriptDemos\AddRecordToAList.aspx.cs">
+      <DependentUpon>AddRecordToAList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\AddRecordToAList.aspx.designer.cs">
+      <DependentUpon>AddRecordToAList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\CreateAList.aspx.cs">
+      <DependentUpon>CreateAList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\CreateAList.aspx.designer.cs">
+      <DependentUpon>CreateAList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\CreateSite.aspx.cs">
+      <DependentUpon>CreateSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\CreateSite.aspx.designer.cs">
+      <DependentUpon>CreateSite.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\GetFieldsOfAList.aspx.cs">
+      <DependentUpon>GetFieldsOfAList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\GetFieldsOfAList.aspx.designer.cs">
+      <DependentUpon>GetFieldsOfAList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\GetListOfLists.aspx.cs">
+      <DependentUpon>GetListOfLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\GetListOfLists.aspx.designer.cs">
+      <DependentUpon>GetListOfLists.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\ReadRecordsOfAList.aspx.cs">
+      <DependentUpon>ReadRecordsOfAList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\ReadRecordsOfAList.aspx.designer.cs">
+      <DependentUpon>ReadRecordsOfAList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\ReadSiteProperties.aspx.cs">
+      <DependentUpon>ReadSiteProperties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\ReadSiteProperties.aspx.designer.cs">
+      <DependentUpon>ReadSiteProperties.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\UpdateSiteProperties.aspx.cs">
+      <DependentUpon>UpdateSiteProperties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScriptDemos\UpdateSiteProperties.aspx.designer.cs">
+      <DependentUpon>UpdateSiteProperties.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{b5e4996b-ae3f-40a2-a337-5581cf39d661}</FeatureId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{4e8ebc8a-f28c-418f-9ccc-928b6b035f36}</FeatureId>
+    </None>
+    <None Include="GetTrainersList\GetTrainersList.webpart" />
+    <None Include="GetTrainersList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{71bbd09b-5460-4e9a-8f0e-77aaeb226930}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{27eda034-b0ca-4279-90cb-91344cef98ca}</SharePointProjectItemId>
+    </None>
+    <None Include="MyJavaScriptModule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13526406-36d8-4746-8bb3-28abba420f50}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{7d2c4844-2811-466a-964b-a45ab8cda89c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="GetTrainersList\Elements.xml" />
+    <Content Include="Layouts\JavaScriptDemos\AddRecordToAList.aspx" />
+    <Content Include="Layouts\JavaScriptDemos\CreateAList.aspx" />
+    <Content Include="Layouts\JavaScriptDemos\CreateSite.aspx" />
+    <Content Include="Layouts\JavaScriptDemos\GetFieldsOfAList.aspx" />
+    <Content Include="Layouts\JavaScriptDemos\GetListOfLists.aspx" />
+    <Content Include="Layouts\JavaScriptDemos\ReadRecordsOfAList.aspx" />
+    <Content Include="Layouts\JavaScriptDemos\ReadSiteProperties.aspx" />
+    <Content Include="Layouts\JavaScriptDemos\UpdateSiteProperties.aspx" />
+    <Content Include="MyJavaScriptModule\Elements.xml" />
+    <Content Include="MyJavaScriptModule\MyScript.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="71d572b6-ab14-4e85-a930-3e004f6a1570" solutionId="71d572b6-ab14-4e85-a930-3e004f6a1570" resetWebServer="false" sharePointProductVersion="16.0" name="JSDemos" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
-  <projectItems>
-    <projectItemReference itemId="4264dc78-226a-444f-b065-c0537f1ed874" />
-  </projectItems>
-</package>

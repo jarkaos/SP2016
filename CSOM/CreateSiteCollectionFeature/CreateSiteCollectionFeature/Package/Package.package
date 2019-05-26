@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8d2b7393-3ba2-40b7-a528-5e0c2d71306c" solutionId="8d2b7393-3ba2-40b7-a528-5e0c2d71306c" resetWebServer="false" sharePointProductVersion="16.0" name="CreateSiteCollectionFeature" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
-  <features>
-    <featureReference itemId="84665ee4-b1ec-4119-8ebb-1f26bb40e044" />
-  </features>
-</package>

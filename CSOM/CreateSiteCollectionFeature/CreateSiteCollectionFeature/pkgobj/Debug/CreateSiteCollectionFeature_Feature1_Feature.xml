@@ -1,2 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="CreateSiteCollectionFeature_U" Description="When this feature gets activated it create  a new site colelction" Id="c88aa2fd-be9b-474b-b214-c0ef8521beb9" ReceiverAssembly="CreateSiteCollectionFeature, Version=1.0.0.0, Culture=neutral, PublicKeyToken=72d8d66e2b68b7e3" ReceiverClass="CreateSiteCollectionFeature.Features.Feature1.Feature1EventReceiver" Scope="WebApplication"></Feature>

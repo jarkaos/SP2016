@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7d2c4844-2811-466a-964b-a45ab8cda89c" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="JavaScriptDemos.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="JavaScriptDemos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=28905f0685c971b2" Namespace="JavaScriptDemos.GetTrainersList" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\JavaScriptDemos\AddRecordToAList.aspx" />
+    <TemplateFile Location="Layouts\JavaScriptDemos\CreateAList.aspx" />
+    <TemplateFile Location="Layouts\JavaScriptDemos\CreateSite.aspx" />
+    <TemplateFile Location="Layouts\JavaScriptDemos\GetFieldsOfAList.aspx" />
+    <TemplateFile Location="Layouts\JavaScriptDemos\GetListOfLists.aspx" />
+    <TemplateFile Location="Layouts\JavaScriptDemos\ReadRecordsOfAList.aspx" />
+    <TemplateFile Location="Layouts\JavaScriptDemos\ReadSiteProperties.aspx" />
+    <TemplateFile Location="Layouts\JavaScriptDemos\UpdateSiteProperties.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="JavaScriptDemos_Feature1\Feature.xml" />
+    <FeatureManifest Location="JavaScriptDemos_Feature2\Feature.xml" />
+  </FeatureManifests>
+</Solution>

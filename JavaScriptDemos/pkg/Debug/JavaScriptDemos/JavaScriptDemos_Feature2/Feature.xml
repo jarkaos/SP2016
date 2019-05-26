@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="773793d3-05af-4098-b05a-3a558031290a" Scope="Site" Title="JavaScriptDemos Feature2">
+  <ElementManifests>
+    <ElementManifest Location="GetTrainersList\Elements.xml" />
+    <ElementFile Location="GetTrainersList\GetTrainersList.webpart" />
+  </ElementManifests>
+</Feature>
