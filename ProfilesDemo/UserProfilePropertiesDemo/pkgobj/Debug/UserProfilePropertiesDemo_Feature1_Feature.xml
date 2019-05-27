@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="UserProfilePropertiesDemo Feature1" Id="d789fd1b-3753-4805-936d-8de9bcf15497" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="VWPUserProfiles\Elements.xml" />
+    <ElementFile Location="VWPUserProfiles\VWPUserProfiles.webpart" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="cf390b9c-62ce-4483-97bd-15f712fce589" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="UserProfilePropertiesDemo.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="UserProfilePropertiesDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=76caac0cd77fd993" Namespace="UserProfilePropertiesDemo.VWPUserProfiles" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="UserProfilePropertiesDemo_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
