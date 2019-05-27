@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="9eae5cfe-1381-4d03-b55a-22821808531f" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="NavigationDemo.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="NavigationDemo_NavigationDemo\Feature.xml" />
+  </FeatureManifests>
+</Solution>

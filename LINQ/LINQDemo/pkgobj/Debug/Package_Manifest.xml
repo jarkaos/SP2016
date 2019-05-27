@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="844358f3-1213-48b8-a006-887b69bc33b6" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="LINQDemo.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="LINQDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=35ce772b2e303660" Namespace="LINQDemo.VWPCourses" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="LINQDemo_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="NavigationDemo" Id="d32c7f10-de92-4060-97ca-cf0dc35c92f8" ReceiverAssembly="NavigationDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7ea73425e4b06285" ReceiverClass="NavigationDemo.Features.NavigationDemo.NavigationDemoEventReceiver" Scope="Web"></Feature>

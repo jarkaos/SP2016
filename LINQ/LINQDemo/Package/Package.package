@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="844358f3-1213-48b8-a006-887b69bc33b6" solutionId="844358f3-1213-48b8-a006-887b69bc33b6" resetWebServer="false" sharePointProductVersion="16.0" name="LINQDemo" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="7dbe7d30-edf0-4cde-8455-63d05a8e5f24" />
+  </features>
+</package>

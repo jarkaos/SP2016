@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="LINQDemo" Id="3257ae8e-3687-4054-b99a-81b5d575c727" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="VWPCourses\Elements.xml" />
+    <ElementFile Location="VWPCourses\VWPCourses.webpart" />
+  </ElementManifests>
+</Feature>
