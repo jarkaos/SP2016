@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Role Assignments" Id="beace27d-abdb-4f46-a2b6-32896e3d184c" ReceiverAssembly="RoleAssignments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=764062bf37424fbe" ReceiverClass="RoleAssignments.Features.RoleAssignments.RoleAssignmentsEventReceiver" Scope="Site"></Feature>

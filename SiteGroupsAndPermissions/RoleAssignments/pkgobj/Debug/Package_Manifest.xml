@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="e8023bb1-b0b1-4e78-954d-d5488098421e" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="RoleAssignments.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="RoleAssignments_RoleAssignments\Feature.xml" />
+  </FeatureManifests>
+</Solution>
