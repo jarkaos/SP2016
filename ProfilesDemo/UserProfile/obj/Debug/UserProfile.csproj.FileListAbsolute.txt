@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\SP2016\ProfilesDemo\UserProfile\obj\Debug\UserProfile.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\SP2016\ProfilesDemo\UserProfile\obj\Debug\UserProfile.csproj.CoreCompileInputs.cache
